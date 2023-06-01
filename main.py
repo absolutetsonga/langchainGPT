@@ -6,7 +6,6 @@ import os
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 
-
 def init():
     load_dotenv()
 
